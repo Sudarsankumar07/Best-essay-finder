@@ -1,0 +1,15 @@
+# Core Framework
+Django>=5.0.3,<6.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Natural Language Processing
+nltk>=3.8.1
+spacy>=3.7.0
+pyphen>=0.14.0
+
+# Additional Notes:
+# After installing these packages, you need to:
+# 1. Download NLTK data: python -m nltk.downloader punkt stopwords wordnet
+# 2. Download spaCy model: python -m spacy download en_core_web_sm
